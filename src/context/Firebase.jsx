@@ -24,14 +24,7 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import PreLoader from "../components/PreLoader";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDXt-8iptTGqCE7QvCVjt2VRdGakI_zNlk",
-  authDomain: "codein-c115b.firebaseapp.com",
-  databaseURL: "https://codein-c115b-default-rtdb.firebaseio.com",
-  projectId: "codein-c115b",
-  storageBucket: "codein-c115b.appspot.com",
-  messagingSenderId: "326678778546",
-  appId: "1:326678778546:web:850375f946805ae542efab",
-  measurementId: "G-EC7GKF0SP9",
+  
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
